@@ -1,5 +1,5 @@
 import Link from "next/link";
-import profileImg from "@/public/coffee-and-code.jpg";
+import profileImg from "@/public/mc-1.jpg";
 import Image from "next/image";
 
 const Logo = () => {

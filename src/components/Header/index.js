@@ -1,7 +1,6 @@
-import { LinkedinIcon } from "@/project files/Icons";
 import Logo from "./Logo";
 import Link from "next/link";
-import { GithubIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon, SunIcon } from "./Icons";
 
 const Header = () => {
   return (
@@ -17,14 +16,24 @@ const Header = () => {
         <Link href="/contact" className="mr-2">
           Contact
         </Link>
-        <button>T</button>
+        <button>
+          <SunIcon />
+        </button>
       </nav>
       <div>
-        <a href="http://example.com" className="inline-block w-6 h-6 mr-4">
-          <LinkedinIcon />
+        <a
+          href="https://www.linkedin.com/in/courtney-wilson22/"
+          target="_blank"
+          className="inline-block w-6 h-6 mr-4"
+        >
+          <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
-        <a href="http://example.com" className="inline-block w-6 h-6 mr-4">
-          <GithubIcon />
+        <a
+          href="https://github.com/cmwilson21"
+          target="_blank"
+          className="inline-block w-6 h-6 mr-4"
+        >
+          <GithubIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
       </div>
     </header>
