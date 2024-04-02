@@ -25,7 +25,7 @@ const HomeCoverSection = ({ blogs }) => {
           <Tag link={`/categories/${blog.tags[0]}`} name={blog.tags[0]} />
           <Link href={blog.url} className="mt-6" />
           <h1 className="font-bold capitalize text-4xl">
-            <span className="bg-gradient-to-r from-teal-100 to-teal-100 bg-[length:0px_6px] hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duraction-400 ">
+            <span className="bg-gradient-to-r from-teal-100 to-teal-100 bg-[length:0px_6px] hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-400 ">
               {blog.title}
             </span>
           </h1>
